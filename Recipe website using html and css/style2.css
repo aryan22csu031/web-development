@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+}
+.bg{
+    background-color: black;
+    height: 18cm;
+    left: 11.7cm;
+    opacity: 0.5;
+    top: 2cm;
+    width: 721px;
+    position: absolute;
+}
+body {
+    background-image: url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    position: relative;
+    top: 90px;
+    font-family:cursive;
+    -webkit-text-stroke: 2px black;
+}
+.customrecipe {
+    justify-content: center;
+    align-content: center;
+    height: 20cm;
+    position: relative;
+    top: 20px;
+}
+
+h3 {
+    position: relative;
+    padding-top: 20px;
+    width: fit-content;
+    left: 30rem;
+    top: 10rem;
+    opacity: 1;
+    color: #1d0218;
+    -webkit-text-stroke: 0.2px wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 2;
+}
+
+input {
+    display: inline-block;
+    width: 9cm;
+    height: 20px;
+    position: relative;
+    left: 40rem;
+    top: 8.6rem;
+}
+
+#submit {
+    width: 99px;
+    height: 50px;
+    box-shadow: 2px 2px 2px black;
+    position: relative;
+    left: 20.5cm;
+    top: 6cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+    border-radius: 20%;
+    font-size: large;
+    transition: transform 100ms;
+}
+#submit:hover{
+    transform:scale(1.1);
+}
+select{
+    width: 100px;
+    position: relative;
+    height: 30px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 17cm;
+    top: 3.5cm;
+}
+#ingredients{
+    width: 2px;
+}
+.end h3{
+    color: rgb(0, 0, 0);
+    top: 240px;
+    left: 400px;
+}
