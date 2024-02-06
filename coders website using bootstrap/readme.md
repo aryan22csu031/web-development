@@ -1,6 +1,4 @@
-Certainly! Here's a basic README template for your CodinGates website:
 
-```markdown
 # CodinGates - Coding Education Platform
 
 Welcome to CodinGates, your digital sanctuary for coding exploration and learning. This repository contains the source code for the CodinGates website, where you can find tutorials, articles, and resources related to programming and technology.
