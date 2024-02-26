@@ -13,6 +13,7 @@ body{
     background-color: burlywood;
     padding: 2rem;
     border-radius: 1rem;
+    box-shadow: 1px 5px 15px black;
     width: 40vh;
     min-height: 55vh;
 }
@@ -39,6 +40,12 @@ form select,input,button{
     width: 100%;
     outline: none;
     border-radius: 0.75rem;
+}
+#amt{
+    transition: all 100ms ease-in;
+}
+#amt:hover{
+    box-shadow: 0px 0px 15px black;
 }
 form input{
     border: 1px solid lightgray;
@@ -97,4 +104,10 @@ form button{
     font-size: 1.1rem;
     margin-top: 4rem;
     cursor: pointer;
+}
+#get_result{
+    transition: all 200ms ease-in;
+}
+#get_result:hover{
+    transform: scale(1.05);
 }
