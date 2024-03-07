@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="" alt="" id="images">
+        <div class="srch">
+            <input type="text" placeholder="Enter City">
+            <button onclick="getdata()">Search</button>
+        </div>
+        <div class="weather">
+            <img src="" alt="">
+            <h2></h2>
+        </div>
+        <div class="dets">
+            <div class="name">
+                <h3></h3>
+            </div>
+            <hr>
+            <div class="temp">
+                <h3 id="ttemp"><img src="thermometer.png">Temperature</h3>
+                <h3 id="temp_param"></h3>
+            </div>
+            <hr>
+            <div class="wind">
+                <h3 id="twind">
+                    <img src="wind.png" alt="">Wind Speed
+                </h3>
+                <h3 id="speed_param"></h3>
+            </div>
+            <hr>
+            <div class="pressure">
+                <h3 id="tpressure">
+                    <img src="pressure.png" alt="">Air Pressure
+                </h3>
+                <h3 id="pressure_param"></h3>
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
