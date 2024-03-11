@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: darkslategrey;
+    min-height: 45vh;
+}
+/* landscape */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 9rem;
+    height: 28rem;
+    width: 55rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+    background-color: rgba(1, 0, 1, 255);
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+    border: 2px solid white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.result h1{
+    position: relative;
+    font-family:monospace;
+    color: #fff;
+    font-size: 3.5rem;
+    text-align: end;
+    right: 3rem;
+    top: 0.5rem;
+}
+.result h3{
+    position: relative;
+    color: #fff;
+    font-family:monospace;
+    font-size: 1.4rem;
+    text-align: end;
+    right: 4rem;
+}
+.buttons{
+    display: grid;
+    height: 75%;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+    grid-template-columns: repeat(10, 2fr);
+    grid-template-rows: repeat(5, 2fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.btn-orange{
+    color: white;
+    width: 4rem;
+    height: 3rem;
+    border: 0px;
+    border-radius: 3.313rem;
+    background-color: #ff9f0c;
+    cursor: pointer;
+}
+.btn-grey{
+    width: 4rem;
+    height: 3rem;
+    border: 0px;
+    border-radius: 3.313rem;
+    background-color: #a4a4a5;
+    cursor: pointer;
+}
+#btn{
+    color: white;
+    width: 4rem;
+    height: 3rem;
+    background-color: rgba(51,51,51,255);
+    border: 0px;
+    border-radius: 3.313rem;
+    cursor: pointer;
+}
+.btn-extended{
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    background-color: rgba(51,51,51,255);
+    border: 0px;
+    border-radius: 3.313rem;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    cursor: pointer;
+}
+
+/* portrait */
+
+.container2 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    width: 31rem;
+    height: 46rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+    background-color: rgba(1, 0, 1, 255);
+}
+
+.result2 h1 {
+    position: relative;
+    font-family: monospace;
+    color: #fff;
+    font-size: 3.5rem;
+    text-align: end;
+    right: 2rem;
+    top: 5rem;
+}
+
+.result2 h3 {
+    position: relative;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1.4rem;
+    top: 1rem;
+    text-align: end;
+    right: 3rem;
+}
+
+.result2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+    border: 2px solid white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.buttons2 {
+    display: grid;
+    height: 75%;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(5, 2fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.btn-orange2 {
+    color: white;
+    width: 6rem;
+    height: 6rem;
+    border: 0px;
+    border-radius: 3.313rem;
+    background-color: #ff9f0c;
+    cursor: pointer;
+}
+
+.btn-grey2 {
+    width: 6rem;
+    height: 6rem;
+    border: 0px;
+    border-radius: 3.313rem;
+    background-color: #a4a4a5;
+    cursor: pointer;
+}
+
+#btn2 {
+    color: white;
+    width: 6rem;
+    height: 6rem;
+    background-color: rgba(51, 51, 51, 255);
+    border: 0px;
+    border-radius: 3.313rem;
+    cursor: pointer;
+}
+
+.btn-extended2 {
+    color: white;
+    width: 14.5rem;
+    height: 5.5rem;
+    background-color: rgba(51, 51, 51, 255);
+    border: 0px;
+    border-radius: 3.313rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    cursor: pointer;
+}
+@media (max-width: 870px){
+    /* … */
+    .container2{
+        display: flex;
+    }
+    .container{
+        display: none;
+    }
+  }

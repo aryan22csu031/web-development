@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Iphone Calculator Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="result">
+            <h3></h3>
+            <h1></h1>
+        </div>
+        <div class="buttons">
+            <button id="btn"><h2>(</h2></button>
+            <button id="btn"><h2>)</h2></button>
+            <button id="btn"><h2>mc</h2></button>
+            <button id="btn"><h2>m+</h2></button>
+            <button id="btn"><h2>m-</h2></button>
+            <button id="btn"><h2>mr</h2></button>
+            <button class="btn-grey"><h2>AC</h2></button>
+            <button class="btn-grey" onclick="negate()"><h2>+/-</h2></button>
+            <button class="btn-grey" onclick="remainder()"><h2>%</h2></button>
+            <button class="btn-orange" onclick="divide()"><h2>÷</h2></button>
+            <button id="btn" onclick="press2()"><h2>2<sup>nd</sup></h2></button>
+            <button id="btn"><h2>x<sup>2</sup></h2></button>
+            <button id="btn"><h2>x<sup>3</sup></h2></button>
+            <button id="btn"><h2>x<sup>y</sup></h2></button>
+            <button id="btn" onclick="eulerNum()"><h2>e<sup>x</sup></h2></button>
+            <button id="btn"><h2>10<sup>x</sup></h2></button>
+            <button id="btn"onclick="press7()"><h2>7</h2></button>
+            <button id="btn"onclick="press8()"><h2>8</h2></button>
+            <button id="btn"onclick="press9()"><h2>9</h2></button>
+            <button class="btn-orange"onclick="multiply()"><h2>X</h2></button>
+            <button id="btn"><h2>1/x</h2></button>
+            <button id="btn" onclick="sqroot()"><h2><sup>2</sup><span>&#8730;</span>x</h2></button>
+            <button id="btn" onclick="cuberoot()"><h2><sup>3</sup><span>&#8730;</span>x</h2></button>
+            <button id="btn"><h2><sup>y</sup><span>&#8730;</span>x</h></button>
+            <button id="btn" onclick="logbaseE()"><h2>ln</h2></button>
+            <button id="btn" onclick="logbase10()"><h2>log<sub>10</sub></h2></button>
+            <button id="btn"onclick="press4()"><h2>4</h2></button>
+            <button id="btn"onclick="press5()"><h2>5</h2></button>
+            <button id="btn"onclick="press6()"><h2>6</h2></button>
+            <button class="btn-orange"onclick="minus()"><h2>-</h2></button>
+            <button id="btn"><h2>x!</h2></button>
+            <button id="btn" onclick="sinh()"><h2>sin</h2></button>
+            <button id="btn"onclick="cosh()"><h2>cos</h2></button>
+            <button id="btn"onclick="tanh()"><h2>tan</h2></button>
+            <button id="btn"><h2>e</h2></button>
+            <button id="btn"><h2>EE</h2></button>
+            <button id="btn" onclick="press1()"><h2>1</h2></button>
+            <button id="btn"onclick="press2()"><h2>2</h2></button>
+            <button id="btn"onclick="press3()"><h2>3</h2></button>
+            <button class="btn-orange"onclick="plus()"><h1>+</h1></button>
+            <button id="btn"><h2>Rad</h2></button>
+            <button id="btn"><h2>sinh</h2></button>
+            <button id="btn"><h2>cosh</h2></button>
+            <button id="btn"><h2>tanh</h2></button>
+            <button id="btn"><h2>π</h2></button>
+            <button id="btn"><h2>Rand</h2></button>
+            <button class="btn-extended" onclick="press0()"><h2>0</h2></button>
+            <button id="btn"><h2>.</h2></button>
+            <button class="btn-orange"><h2>=</h2></button>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="result2">
+            <h3></h3>
+            <h1></h1>
+        </div>
+        <div class="buttons2">
+            <button class="btn-grey2">
+                <h2>C</h2>
+            </button>
+            <button class="btn-grey2">
+                <h2>+/-</h2>
+            </button>
+            <button class="btn-grey2">
+                <h2>%</h2>
+            </button>
+            <button class="btn-orange2">
+                <h2>÷</h2>
+            </button>
+            <button id="btn2">
+                <h2>7</h2>
+            </button>
+            <button id="btn2">
+                <h2>8</h2>
+            </button>
+            <button id="btn2">
+                <h2>9</h2>
+            </button>
+            <button class="btn-orange2">
+                <h2>X</h2>
+            </button>
+            <button id="btn2">
+                <h2>4</h2>
+            </button>
+            <button id="btn2">
+                <h2>5</h2>
+            </button>
+            <button id="btn2">
+                <h2>6</h2>
+            </button>
+            <button class="btn-orange2">
+                <h2>-</h2>
+            </button>
+            <button id="btn2">
+                <h2>1</h2>
+            </button>
+            <button id="btn2">
+                <h2>2</h2>
+            </button>
+            <button id="btn2">
+                <h2>3</h2>
+            </button>
+            <button class="btn-orange2">
+                <h2>+</h2>
+            </button>
+            <button class="btn-extended2">
+                <h2>0</h2>
+            </button>
+            <button id="btn2">
+                <h2>.</h2>
+            </button>
+            <button class="btn-orange2">
+                <h2>=</h2>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
