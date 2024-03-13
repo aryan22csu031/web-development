@@ -6,7 +6,6 @@ Welcome to the iPhone Calculator Clone project! This web application is a replic
 
 - **Basic Operations:** Addition, Subtraction, Multiplication, Division.
 - **Special Functions:** Percentage, Logarithms, Exponentials, Square Roots, and more!
-- **Seamless Chaining:** Perform multiple operations in a single expression.
 - **Responsive Design:** Works flawlessly on both landscape and portrait orientations.
 
 ## Getting Started
